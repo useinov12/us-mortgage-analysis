@@ -12,3 +12,20 @@ This analysis uses data from **IPUMS USA** and **FRED**, covering the period fro
 - **FRED New Housing Starts** (`HOUST`): Data on the number of new housing units being built.
 
 Each dataset contributes to understanding how mortgage costs, income allocation, and housing availability have evolved over the analysis period.
+
+
+| Variable  | Columns | Len | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 |
+|-----------|---------|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| YEAR      | H 1-4   | 4   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| SAMPLE    | H 5-10  | 6   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| SERIAL    | H 11-18 | 8   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| CBSERIAL  | H 19-31 | 13  |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| HHWT      | H 32-41 | 10  |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| CLUSTER   | H 42-54 | 13  |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| STRATA    | H 55-66 | 12  |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| GQ        | H 67    | 1   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| OWNERSHP  | H 68    | 1   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| OWNERSHPD | H 69-70 | 2   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| MORTGAGE  | H 71    | 1   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| MORTAMT1  | H 72-76 | 5   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
+| HHINCOME  | H 77-83 | 7   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |  X   |
